@@ -1,0 +1,29 @@
+//Font Imports
+$font-family-title: 'Miller';
+$font-family-main: 'Montserrat',
+sans-serif;
+$font-family-text: 'Merriweather';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/subset-Merriweather.eot');
+    src: url('../fonts/subset-Merriweather.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-Merriweather.woff') format('woff'), url('../fonts/subset-Merriweather.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('../fonts/GTWalsheimProRegular.eot');
+    src: url('../fonts/GTWalsheimProRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/GTWalsheimProRegular.woff') format('woff'), url('../fonts/GTWalsheimProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miller';
+    src: url('../fonts/Miller-Display.eot');
+    src: url('../fonts/Miller-Display.eot?#iefix') format('embedded-opentype'), url('../fonts/Miller-Display.woff') format('woff'), url('../fonts/Miller-Display.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

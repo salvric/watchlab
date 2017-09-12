@@ -1,0 +1,29 @@
+// button styles
+.btn {
+    border: 1px solid $beige;
+    border-radius: 0;
+    color: $beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: $font-family-title;
+    font-size: $font-size-button;
+    background: transparent;
+    padding: 10px 20px;
+    width: 218px;
+    &:hover {
+        transition: background-color 0.7s ease;
+        background: $beige;
+        color: $fc-light;
+        cursor: pointer;
+    }
+}
+
+.email {
+    border: 1px solid $fc-light;
+    color: $fc-light;
+    background: transparent;
+    font-family: $font-family-title;
+    font-size: $font-size-medium;
+    width: 60px;
+    padding: 10px;
+}
